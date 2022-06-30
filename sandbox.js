@@ -6,3 +6,19 @@ if(true) {
   let age = 40 //local scope - only exists/valid in code block
   console.log(age); 
 }
+
+//function declaration
+
+function greet() {
+    console.log('hello');
+}
+
+greet();
+
+//function expression
+const speak =function(){
+    console.log('good day');
+};
+
+speak();
+
