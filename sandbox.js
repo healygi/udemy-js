@@ -22,3 +22,19 @@ const speak =function(){
 
 speak();
 
+// arrow function shortens regualr functions
+
+const calcArea = (radius) => {
+  return 3.14 * radius ** 2 
+};
+
+or 
+
+const calcArea = radius => 3.14 ** 2
+
+const greet = () => 'hello, world';
+
+const bill = (products, tax) => {
+  
+}
+
