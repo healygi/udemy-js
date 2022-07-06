@@ -63,3 +63,61 @@ title.style.margin = '50px'; //updates margin
 title.style.color = 'crimson'; //updates color
 title.style.fontSize = '60px'; //updates font 
 title.style.margin = ''; //gets rid of margin
+
+// ADDING AND REMOVING CLASSES 51
+
+const content = document.querySelector('p');
+
+console.log(content.classList); //lists DOM classes
+content.classList.add('error'); //adds error as a class
+content.classList.remove('error'); //removes error as a class
+content.classList.add('success'); //adds success as a class
+
+// CHALLENGE
+
+function addClass() {
+
+const paras = document.querySelectorAll('p');
+      if paras.innerHTML = "error" {
+        return paras.classList.add('error');
+      } else if {
+        paras.innerHTML = "success" {
+            return paras.classList.add('success');
+        }
+     }
+}
+
+const paras = document.querySelectorAll('p');
+
+paras.forEach(para => {
+    if (paras.textContent.includes('error')) {
+        paras.classList.add('error');
+    } if (paras.textContent.includes('success')) {
+           paras.classList.add('success');
+        }
+ });
+
+ const article = document.querySelector('article');
+
+ console.log(article.children);
+ console.log(Array.from(article.children));
+
+ Array.from(article.children).forEach((child) => {
+
+ });
+
+ const items = document.querySelectorAll('li');
+
+ items.forEach(item => {
+    item.addEventListener('click', () => { 
+    console.log("you clicked me");
+    });
+ });
+
+ ul.remove(); //a method that removes it from the DOM
+
+ e.target.remove(); // removes a targed item
+
+ //e is an event parameter
+
+ const li = document.createElement('li'); //creates a new element
